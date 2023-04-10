@@ -1,0 +1,11 @@
+{%  extends 'info/base.html' %}
+
+{% block content %}
+    {% for i in objects %}
+        {{ i.name }}
+        {{ i.age }}
+        {{ i.height }}
+        {{ i.weight }}
+    {% endfor %}
+
+{% endblock %}

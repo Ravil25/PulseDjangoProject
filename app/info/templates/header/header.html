@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Ваше лого</a>
+    <ul class="navbar-nav">
+        {% for m in menu %}
+            <li class ="nav-item navbar-brand"><a class="navbar-brand" href="{% url m.url_name %}">{{ m.title }}</a></li>
+        {% endfor %}
+
+        {% if request.user.is_authenticated %}
+            <li class="nav-item navbar-brand"> {{ user.username }} | <a class="navbar-brand"  href="{% url 'logout' %}">Выйти</a></li>
+        {% else %}
+            <li class="nav-item"><a class="navbar-brand" href="{% url 'add_user' %}">Регистрация </a>   <a class="navbar-brand"  href="{% url 'login' %}">Войти</a></li>
+        {% endif %}
+
+            {##}
+            {#            <li class="nav-item">#}
+            {#                <a class="nav-link" href="{% url 'index' %}">Главная</a>#}
+            {#            </li>#}
+            {#            <li class="nav-item">#}
+            {#                <a class="nav-link" href="#">О нас</a>#}
+            {#            </li>#}
+            {#            <li class="nav-item">#}
+            {#                <a class="nav-link" href="#">Контакты</a>#}
+            {#            </li>#}
+            {#            <li class="nav-item">#}
+            {#                <a class="nav-link" href="{% url 'show_info' %}">Пациенты</a>#}
+            {#            </li>#}
+            {#            <li class="nav-item">#}
+            {#                <a class="nav-link" href="{% url 'add_user' %}">Регистрация</a>#}
+            {#            </li>#}
+            {#            <li class="nav-item">#}
+            {#                <a class="nav-link" href="{% url 'login' %}">Логин</a>#}
+            {#            </li>#}
+    </ul>
+
+</nav>
+

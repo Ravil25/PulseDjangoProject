@@ -1,0 +1,62 @@
+{% extends 'info/base.html' %}
+
+{% block content %}
+    <h1>Create Profile</h1>
+    <form class="bordered-form" method="post" action="{% url 'add_user' %}">
+        {% csrf_token %}
+        <div class="form-error">{{ user_form.non_field_errors }}</div>
+        <div class="form-error">{{ profile_form.non_field_errors }}</div>
+        <p>
+            <label class="form-label" for="{{ user_form.username.id_for_label }}">
+                {{ user_form.username.label }}:
+            </label>
+            {{ user_form.username }}
+        <div class="form-error">{{ user_form.username.errors }}</div>
+        </p>
+        <p>
+            <label class="form-label" for="{{ user_form.password1.id_for_label }}">
+                {{ user_form.password1.label }}:
+            </label>
+            {{ user_form.password1 }}
+        <div class="form-error">{{ user_form.password1.errors }}</div>
+        </p>
+        <p>
+            <label class="form-label" for="{{ user_form.password2.id_for_label }}">
+                {{ user_form.password2.label }}:
+            </label>
+            {{ user_form.password2 }}
+        <div class="form-error">{{ user_form.password2.errors }}</div>
+        </p>
+        <p>
+            <label class="form-label" for="{{ profile_form.name.id_for_label }}">
+                {{ profile_form.name.label }}:
+            </label>
+            {{ profile_form.name }}
+        <div class="form-error">{{ profile_form.name.errors }}</div>
+        </p>
+        <p>
+            <label class="form-label" for="{{ profile_form.age.id_for_label }}">
+                {{ profile_form.age.label }}:
+            </label>
+            {{ profile_form.age }}
+        <div class="form-error">{{ profile_form.age.errors }}</div>
+        </p>
+        <p>
+            <label class="form-label" for="{{ profile_form.height.id_for_label }}">
+                {{ profile_form.height.label }}:
+            </label>
+            {{ profile_form.height }}
+        <div class="form-error">{{ profile_form.height.errors }}</div>
+        </p>
+        <p>
+            <label class="form-label" for="{{ profile_form.weight.id_for_label }}">
+                {{ profile_form.weight.label }}:
+            </label>
+            {{ profile_form.weight }}
+        <div class="form-error">{{ profile_form.weight.errors }}</div>
+        </p>
+        <button class="button-form" type="submit">Submit</button>
+    </form>
+
+
+{% endblock %}

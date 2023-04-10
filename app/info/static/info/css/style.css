@@ -1,0 +1,81 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.table {
+    background-color: aqua;
+    border: blue;
+}
+
+.navbar {
+
+}
+
+.content {
+    flex: 1;
+    max-height: calc(100vh - 70px); /* 70px - это высота footer + padding + margin */
+    overflow-y: auto;
+}
+
+.bordered-form {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 50px;
+}
+
+.bordered-form p {
+    margin: 10px;
+    width: 100%;
+}
+
+.form-label {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.bordered-form input[type="text"], input[type="number"], input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.bordered-form input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-bottom: 2px solid #0066cc;
+}
+
+.button-form {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}

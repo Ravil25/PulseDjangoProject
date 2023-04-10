@@ -1,0 +1,6 @@
+{%  extends 'info/base.html' %}
+{% block title %} User {% endblock %}
+
+{% block content %}
+    {{ user.username|truncatewords:3 }}
+{% endblock %}
