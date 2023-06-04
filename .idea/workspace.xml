@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="068aef6d-b2ce-4c82-a0ab-d1b50f9ea9e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/info/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/info/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/info/templates/info/add_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/info/templates/info/add_report.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NvLGfQFPwayjrPDAgQgPEytjnn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/pythonProject5&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="068aef6d-b2ce-4c82-a0ab-d1b50f9ea9e5" name="Changes" comment="" />
+      <created>1680539514263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680539514263</updated>
+      <workItem from="1680539515483" duration="4133000" />
+      <workItem from="1680598821149" duration="12794000" />
+      <workItem from="1680681854229" duration="2547000" />
+      <workItem from="1680863782184" duration="4035000" />
+      <workItem from="1680959822347" duration="10019000" />
+      <workItem from="1681021601958" duration="23950000" />
+      <workItem from="1681112980714" duration="5990000" />
+      <workItem from="1681203344951" duration="2100000" />
+      <workItem from="1681890343210" duration="2986000" />
+      <workItem from="1682191745549" duration="199000" />
+      <workItem from="1685884836586" duration="1861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PokerDjango$settings.coverage" NAME="settings Coverage Results" MODIFIED="1685888073582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/app" />
+  </component>
+</project>
