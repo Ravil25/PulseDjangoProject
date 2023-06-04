@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068aef6d-b2ce-4c82-a0ab-d1b50f9ea9e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/info/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/info/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/info/templates/info/add_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/info/templates/info/add_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -60,7 +64,8 @@
       <workItem from="1681203344951" duration="2100000" />
       <workItem from="1681890343210" duration="2986000" />
       <workItem from="1682191745549" duration="199000" />
-      <workItem from="1685884836586" duration="1861000" />
+      <workItem from="1685884836586" duration="2694000" />
+      <workItem from="1685889523275" duration="1087000" />
     </task>
     <servers />
   </component>
