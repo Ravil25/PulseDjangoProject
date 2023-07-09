@@ -8,7 +8,7 @@ from .models import UserProfile, PulseReport
 class ReportForm(forms.ModelForm):
     # Remove the 'date' field from the form's fields list
     class Meta:
-        model = PulseReport
+
         fields = ['pulse']
 
     # Specify the 'date' field in the __init__ method with a disabled widget
